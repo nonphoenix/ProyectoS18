@@ -28,7 +28,7 @@ num1 = parseInt(prompt("Ingresa un numero", ""));
 porcentaje = num1 * 0.18;
 
 if (num1 > 500) {
-  document.write("<br>" +num1 + "<br>" + porcentaje);
+  document.write("<br>" + "solucion: " +num1 + "<br>" + porcentaje);
 }
 
 
@@ -41,4 +41,4 @@ let factorial = num;
 for (let i = num - 1; i >= 1; i--) {
   factorial = factorial * i;
 }
-document.write(factorial);
+document.write("<br>"+ "El factorial de su numero es: " +factorial);
