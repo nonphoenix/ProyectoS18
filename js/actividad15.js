@@ -17,7 +17,7 @@ bonificacion +
 sueldoFinal
 );
 } else {
-document.write(
+document.write("<br>" +
 "No le corresponde ningún bono" + "<br>" + "Sueldo Final: S/. "
 + sueldo
 );
@@ -28,7 +28,7 @@ num1 = parseInt(prompt("Ingresa un numero", ""));
 porcentaje = num1 * 0.18;
 
 if (num1 > 500) {
-  document.write(num1 + "<br>" + porcentaje);
+  document.write("<br>" +num1 + "<br>" + porcentaje);
 }
 
 
