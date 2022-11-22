@@ -41,3 +41,18 @@ document.write("Hola, " + nombre + "<br>");
 if (promedioFinal >= 12) {
 document.write("Su promedio final es: " + promedioFinal);
 }
+
+let robot;
+robot = parseInt(prompt("Ingresa la cantidad de robots", ""));
+let muneca;
+muneca = parseInt(prompt("Ingresa la cantidad de munecas", ""));
+
+pesoDeliveryR = robot;
+pesoDeliveryM = 0.5 * muneca;
+pesoTotalDelivery = pesoDeliveryR + pesoDeliveryM;
+
+if (pesoTotalDelivery > 10) {
+  document.write("Delivery: S/" + "6");
+} else {
+  document.write("Delivery: S/" + "5");
+}
