@@ -22,16 +22,23 @@ document.write(
 + sueldo
 );
 }
-let num;
-num = parseInt(prompt("Ingresa un numero", ""));
-porcentaje = num * 0.18;
-if (num > 500) {
-document.write(num + "<br>" + porcentaje);
+let num1;
+num1 = parseInt(prompt("Ingresa un numero", ""));
+
+porcentaje = num1 * 0.18;
+
+if (num1 > 500) {
+  document.write(num1 + "<br>" + porcentaje);
 }
+
+
+
 let num;
 num = parseInt(prompt("Ingresa un numero", ""));
+
 let factorial = num;
+
 for (let i = num - 1; i >= 1; i--) {
-factorial = factorial * i;
+  factorial = factorial * i;
 }
 document.write(factorial);
