@@ -35,4 +35,3 @@ for (let i = num - 1; i >= 1; i--) {
 factorial = factorial * i;
 }
 document.write(factorial);
-*/
